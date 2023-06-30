@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: digger run
-        uses: diggerhq/digger@feat/support-org-level-rbac
+        uses: diggerhq/digger@feat/make-rbac-org-configurable-in-digger
         with:
           setup-aws: true
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
